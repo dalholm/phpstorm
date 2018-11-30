@@ -1,0 +1,33 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="607425b9-fb41-4f85-ab6c-fad19f570ba7" name="Ebutik.dev" url="http://ebutik.dev">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="b544e176-7304-474f-8010-a4ae349bea24" name="c4butik" url="http://www.c4butik.se/swish">
+        <fileTransfer host="ftp.c4butik.se" port="21" rootFolder="/public_html/swish">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="b278491a-e684-4eb1-a1c4-343bdfb6d3a6" name="amtryck" url="http://statistik.amtryck.se">
+        <fileTransfer host="server7.c4hosting.se" port="21" rootFolder="/statistik">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="32ef57e6-4e63-41ff-913a-5fc3e454f783" name="c4testbutik" url="http://server4.c4hosting.se/~c4testbu">
+        <fileTransfer host="server4.c4hosting.se" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

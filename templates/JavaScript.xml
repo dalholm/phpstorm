@@ -1,0 +1,19 @@
+<templateSet group="JavaScript">
+  <template name="jqueryPost" value="$.post( &quot;test.php&quot;, { name: &quot;John&quot;, time: &quot;2pm&quot; }, function(response){&#10;    &#10;});" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="clog" value="console.log($log$);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="log" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="jqueryGet" value="$.getJSON($url$, function(data) {&#10;&#10;&#9;$.each( data, function( index, note ) {&#10;&#10;&#9;});&#10;});" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
