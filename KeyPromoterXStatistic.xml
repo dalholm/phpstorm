@@ -190,7 +190,7 @@
           <IdeaActionID>SplitVertically</IdeaActionID>
           <ShortCut>'⌃L'</ShortCut>
           <Description>Split Vertically</Description>
-          <Count>57</Count>
+          <Count>58</Count>
         </Item>
       </Statistic>
       <Statistic Action="Terminal">
