@@ -70,7 +70,7 @@
           <IdeaActionID>SplitVertically</IdeaActionID>
           <ShortCut>'⌃L'</ShortCut>
           <Description>Split Vertically</Description>
-          <Count>5</Count>
+          <Count>7</Count>
         </Item>
       </Statistic>
     </option>
