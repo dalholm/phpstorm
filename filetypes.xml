@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <removed_mapping ext="csv" approved="true" type="CSV" />
       <mapping pattern="ib_logfile1" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="public/assets/img/logo" type="PLAIN_TEXT" />
