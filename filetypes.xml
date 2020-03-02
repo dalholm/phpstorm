@@ -8,6 +8,9 @@
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="statistics-center/index.js" type="PLAIN_TEXT" />
       <mapping pattern="ib_logfile1" type="PLAIN_TEXT" />
+      <mapping ext="ttf" type="PLAIN_TEXT" />
+      <mapping ext="eot" type="PLAIN_TEXT" />
+      <mapping ext="woff" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="rb" approved="true" type="PLAIN_TEXT" />
