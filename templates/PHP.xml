@@ -31,4 +31,10 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="vv" value="echo '&lt;pre&gt;';&#10;var_dump($1$);die();" description="Var dump and die" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
