@@ -9,6 +9,7 @@
       <mapping pattern="statistics-center/index.js" type="PLAIN_TEXT" />
       <mapping pattern=".docker/app.docker" type="PLAIN_TEXT" />
       <mapping pattern=".README" type="PLAIN_TEXT" />
+      <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
       <mapping ext="woff" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
