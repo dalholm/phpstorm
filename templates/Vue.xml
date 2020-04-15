@@ -9,7 +9,7 @@
       <option name="Vue" value="true" />
     </context>
   </template>
-  <template name="vb" value="&lt;template&gt;&#10;    &lt;div&gt;&#10;        &#10;    &lt;/div&gt;&#10;&lt;/template&gt;&#10;&lt;script&gt;&#10;    export default {&#10;        data() {&#10;            return  {&#10;                &#10;            }&#10;        }&#10;    }&#10;&lt;/script&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="vb" value="&lt;template&gt;&#10;    &lt;div&gt;&#10;        &#10;    &lt;/div&gt;&#10;&lt;/template&gt;&#10;&lt;script&gt;&#10;    export default {&#10;        data() {&#10;            return  {&#10;                &#10;            }&#10;        }&#10;    }&#10;&lt;/script&gt;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
