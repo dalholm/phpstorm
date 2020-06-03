@@ -16,4 +16,12 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="b-confirm" value="this.$buefy.dialog.confirm({&#10;    title: `Ta bort $1$`,&#10;    message: `Vill du verkligen $2$`,&#10;    confirmText: 'Ja',&#10;    cancelText: 'Avbryt',&#10;    type: 'is-danger',&#10;    hasIcon: true,&#10;    onConfirm: () =&gt; {&#10;        $3$&#10;    }&#10; });" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
