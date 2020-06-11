@@ -14,4 +14,11 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="btf" value="&lt;b-field label=&quot;$1$&quot;&#10;    :type=&quot;{'is-danger': hasError('$2$')}&quot;&#10;    :message=&quot;errorLabel('$2$')&quot;&#10;&gt;&#10;    &lt;b-input v-model=&quot;form.$2$&quot; placeholder=&quot;$1$&quot;/&gt;&#10;&lt;/b-field&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
 </templateSet>
