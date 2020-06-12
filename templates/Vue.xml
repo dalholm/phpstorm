@@ -21,4 +21,11 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="bnot" value="this.$buefy.notification.open({&#10;    message: `$1$`,&#10;    type: 'is-success$2$'&#10;})" description="buefy notification" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
 </templateSet>
