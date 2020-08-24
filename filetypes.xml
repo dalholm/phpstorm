@@ -1,7 +1,6 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <removed_mapping ext="php" type="PHP" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern=".README" type="PLAIN_TEXT" />
       <mapping pattern="public/assets/img/logo" type="PLAIN_TEXT" />
@@ -12,7 +11,6 @@
       <mapping pattern="statistics-center/index.js" type="PLAIN_TEXT" />
       <mapping pattern="b0c981eb3c69e6b6d9b1d2cce2b06c031069b7ac" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
-      <mapping ext="php" type="PLAIN_TEXT" />
       <mapping ext="woff" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
