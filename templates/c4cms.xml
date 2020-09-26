@@ -1,7 +1,0 @@
-<templateSet group="c4cms">
-  <template name="cmsimg" value="&lt;img src=&quot;&lt;?=webLocation?&gt;tpl/&lt;?=$_TPL?&gt;/img/theme/&quot; /&gt;" description="" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="OTHER" value="true" />
-    </context>
-  </template>
-</templateSet>

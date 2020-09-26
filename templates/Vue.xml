@@ -28,4 +28,16 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="tl" value="$t('$1$')" description="T language" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="tlang" value="{{ $t('$1$') }}" description="t language with brackets" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
 </templateSet>
