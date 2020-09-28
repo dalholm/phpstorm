@@ -37,7 +37,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="starr" value="&quot;$1$&quot; =&gt; &quot;$2$&quot;,$3$" toReformat="false" toShortenFQNames="true">
+  <template name="starr" value="&quot;$1$&quot; =&gt; &quot;$2$&quot;,$3$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
