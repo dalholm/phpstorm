@@ -40,4 +40,11 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="2col" value="&lt;div class=&quot;columns&quot;&gt;&#10;    &lt;div class=&quot;column&quot;&gt;&#10;        $1$&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;column&quot;&gt;&#10;        $2$&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="two bulma columns" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
 </templateSet>
