@@ -47,4 +47,12 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="asyncfunc&gt;" value="async $1$() {&#10;    try {&#10;        let {data} = await this.axios.post('$2$', $3$);            &#10;    } catch (error) {&#10;        this.errors = error.response;&#10;    }&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
 </templateSet>
