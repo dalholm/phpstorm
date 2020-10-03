@@ -55,4 +55,10 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="nf" value="&lt;form-field&#10;    :errors=&quot;errors&quot;&#10;    field=&quot;$1$&quot;&#10;    :label=&quot;$t('field.$1$')&quot;&#10;&gt;&#10;    &lt;b-input v-model=&quot;form.$1$&quot; :placeholder=&quot;$t('field.$1$')&quot;/&gt;&#10;&lt;/form-field&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
 </templateSet>
