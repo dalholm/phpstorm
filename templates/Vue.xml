@@ -61,4 +61,10 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="try" value="try {&#10;    $1$&#10;} catch (error) {&#10;    console.error(error);&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
 </templateSet>
