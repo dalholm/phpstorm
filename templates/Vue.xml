@@ -47,7 +47,7 @@
       <option name="Vue" value="true" />
     </context>
   </template>
-  <template name="asyncfunc&gt;" value="async $1$() {&#10;    try {&#10;        let {data} = await this.axios.post('$2$', $3$);            &#10;    } catch (error) {&#10;        this.errors = error.response;&#10;    }&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="asyncfunc&gt;" value="async $1$() {&#10;    try {&#10;        let {data} = await this.axios.post('$2$', $3$);            &#10;    } catch (error) {&#10;        this.errors = error.response;&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
@@ -55,13 +55,13 @@
       <option name="Vue" value="true" />
     </context>
   </template>
-  <template name="nf" value="&lt;form-field&#10;    :errors=&quot;errors&quot;&#10;    field=&quot;$1$&quot;&#10;    :label=&quot;$t('field.$1$')&quot;&#10;&gt;&#10;    &lt;b-input v-model=&quot;form.$1$&quot; :placeholder=&quot;$t('field.$1$')&quot;/&gt;&#10;&lt;/form-field&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="nf" value="&lt;form-field&#10;    :errors=&quot;errors&quot;&#10;    field=&quot;$1$&quot;&#10;    :label=&quot;$t('field.$1$')&quot;&#10;&gt;&#10;    &lt;b-input v-model=&quot;form.$1$&quot; :placeholder=&quot;$t('field.$1$')&quot;/&gt;&#10;&lt;/form-field&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Vue" value="true" />
     </context>
   </template>
-  <template name="try" value="try {&#10;    $1$&#10;} catch (error) {&#10;    console.error(error);&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="try" value="try {&#10;    $1$&#10;} catch (error) {&#10;    console.error(error);&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Vue" value="true" />
