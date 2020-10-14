@@ -1,8 +1,8 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern=".README" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern=".README" type="PLAIN_TEXT" />
       <mapping pattern="public/assets/img/logo" type="PLAIN_TEXT" />
       <mapping pattern="Traits/UsesUuid.php" type="PLAIN_TEXT" />
       <mapping pattern="ib_logfile1" type="PLAIN_TEXT" />
