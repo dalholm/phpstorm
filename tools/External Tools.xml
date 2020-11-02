@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="stylelint" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/develop/bulma-ecommerce/node_modules/stylelint/bin/stylelint.js" />
+      <option name="PARAMETERS" value="$FileName$ --fix" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+</toolSet>
