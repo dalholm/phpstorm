@@ -52,13 +52,13 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="infocomment" value="//======================================================================&#10;// $1$&#10;//======================================================================" toReformat="false" toShortenFQNames="true">
+  <template name="infocomment" value="//======================================================================&#10;// $1$&#10;//======================================================================" description="" toReformat="false" toShortenFQNames="true">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="configcomment" value="/*&#10;|--------------------------------------------------------------------------&#10;| $1$&#10;|--------------------------------------------------------------------------&#10;| $2$&#10;|&#10;*/" toReformat="false" toShortenFQNames="true">
+  <template name="configcomment" value="/*&#10;|--------------------------------------------------------------------------&#10;| $1$&#10;|--------------------------------------------------------------------------&#10;| $2$&#10;|&#10;*/" description="" toReformat="false" toShortenFQNames="true">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
