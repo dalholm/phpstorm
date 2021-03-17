@@ -11,6 +11,7 @@
       <mapping pattern=".docker/app.docker" type="PLAIN_TEXT" />
       <mapping pattern="statistics-center/index.js" type="PLAIN_TEXT" />
       <mapping pattern="b0c981eb3c69e6b6d9b1d2cce2b06c031069b7ac" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
       <mapping ext="index-shm" type="PLAIN_TEXT" />
       <mapping ext="woff" type="PLAIN_TEXT" />
