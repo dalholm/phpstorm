@@ -2,15 +2,15 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="LICENSE" type="AUTO_DETECTED" />
+      <mapping pattern="Traits/UsesUuid.php" type="PLAIN_TEXT" />
+      <mapping pattern=".docker/app.docker" type="PLAIN_TEXT" />
+      <mapping pattern="b0c981eb3c69e6b6d9b1d2cce2b06c031069b7ac" type="PLAIN_TEXT" />
+      <mapping pattern="ib_logfile1" type="PLAIN_TEXT" />
+      <mapping pattern="statistics-center/index.js" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern=".README" type="PLAIN_TEXT" />
-      <mapping pattern="public/assets/img/logo" type="PLAIN_TEXT" />
-      <mapping pattern="Traits/UsesUuid.php" type="PLAIN_TEXT" />
-      <mapping pattern="ib_logfile1" type="PLAIN_TEXT" />
       <mapping pattern="Frontend/PageController.php" type="PLAIN_TEXT" />
-      <mapping pattern=".docker/app.docker" type="PLAIN_TEXT" />
-      <mapping pattern="statistics-center/index.js" type="PLAIN_TEXT" />
-      <mapping pattern="b0c981eb3c69e6b6d9b1d2cce2b06c031069b7ac" type="PLAIN_TEXT" />
+      <mapping pattern="public/assets/img/logo" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
       <mapping ext="index-shm" type="PLAIN_TEXT" />
       <mapping ext="woff" type="PLAIN_TEXT" />
