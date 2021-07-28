@@ -1,8 +1,0 @@
-<application>
-  <component name="MarkdownApplicationSettings">
-    <MarkdownCssSettings StylesheetUri="jar:file:/Applications/PhpStorm.app/Contents/plugins/markdown/lib/markdown.jar!/org/intellij/plugins/markdown/settings/darcula.css">
-      <option name="fontFamily" value="Fira Code" />
-      <option name="fontSize" value="12" />
-    </MarkdownCssSettings>
-  </component>
-</application>
