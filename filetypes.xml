@@ -1,0 +1,34 @@
+<application>
+  <component name="FileTypeManager" version="18">
+    <extensionMap>
+      <mapping pattern="LICENSE" type="AUTO_DETECTED" />
+      <mapping pattern="Traits/UsesUuid.php" type="PLAIN_TEXT" />
+      <mapping pattern=".docker/app.docker" type="PLAIN_TEXT" />
+      <mapping pattern="b0c981eb3c69e6b6d9b1d2cce2b06c031069b7ac" type="PLAIN_TEXT" />
+      <mapping pattern="ib_logfile1" type="PLAIN_TEXT" />
+      <mapping pattern="statistics-center/index.js" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern=".README" type="PLAIN_TEXT" />
+      <mapping pattern="Frontend/PageController.php" type="PLAIN_TEXT" />
+      <mapping pattern="public/assets/img/logo" type="PLAIN_TEXT" />
+      <mapping ext="ttf" type="PLAIN_TEXT" />
+      <mapping ext="index-shm" type="PLAIN_TEXT" />
+      <mapping ext="woff" type="PLAIN_TEXT" />
+      <mapping ext="pem" type="PLAIN_TEXT" />
+      <mapping ext="eot" type="PLAIN_TEXT" />
+      <mapping ext="index" type="PLAIN_TEXT" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="csv" approved="true" type="CSV" />
+      <removed_mapping ext="dockerfile" approved="true" type="textmate" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="makefile" approved="true" type="textmate" />
+      <removed_mapping ext="php" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="rb" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="sh" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="snakefile" approved="true" type="textmate" />
+      <removed_mapping pattern=".env" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".php" approved="true" type="PHP" />
+    </extensionMap>
+  </component>
+</application>
