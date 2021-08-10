@@ -8,4 +8,7 @@
     <option name="FONT_BOLD_SUB_FAMILY" value="Bold" />
     <option name="LINE_SPACING" value="1.0" />
   </component>
+  <component name="EditorSettings">
+    <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />
+  </component>
 </application>
