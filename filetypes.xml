@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="Facades/LaravelSettingsFacade" type="AUTO_DETECTED" />
       <mapping pattern="LICENSE" type="AUTO_DETECTED" />
       <mapping pattern="Traits/UsesUuid.php" type="PLAIN_TEXT" />
       <mapping pattern=".docker/app.docker" type="PLAIN_TEXT" />
