@@ -1,0 +1,113 @@
+<templateSet group="laravel">
+  <template name="lurl" value="{{URL::to('$url$')}}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="url" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="2cols" value="&lt;div class=&quot;row&quot;&gt;&#10;  &lt;div class=&quot;col-xs-6&quot;&gt;&#10;  $1$&#10;  &lt;/div&gt;&#10;  &lt;div class=&quot;col-xs-6&quot;&gt;&#10;    $2$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="frow" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    {{Form::label('$1$','$2$')}}&#10;    {{Form::text('$1$',null, ['class' =&gt; 'form-control'])}}&#10;    {{$errors-&gt;first('$1$', '&lt;span class=&quot;label label-danger&quot;&gt;:message&lt;/span&gt;')}}&#10;&lt;/div&gt;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="panel" value="&lt;div class=&quot;panel panel-default&quot;&gt;&#10;  &lt;div class=&quot;panel-heading&quot;&gt;$1$&lt;/div&gt;&#10;  &lt;div class=&quot;panel-body&quot;&gt;&#10;    $2$&#10;  &lt;/div&gt;&#10;&lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ig" value="Input::get('$1$')" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="dig" value="$data-&gt;$1$ = Input::get('$1$');" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fradio" value="&lt;div class=&quot;radio&quot;&gt;&#10;    &lt;label&gt;&#10;    {{Form::radio('$1$', '$2$')}}&#10;      $3$&#10;    &lt;/label&gt;&#10;  &lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ddpre" value="echo '&lt;pre&gt;';&#10;dd($1$);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="dcreate" value="Schema::create('$1$', function ($table) {&#10;            $table-&gt;increments('id')-&gt;unsigned();&#10;            &#10;            $table-&gt;timestamps();&#10;        });" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="$data" value="$data['$1$'];" description="" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="table" value="&lt;table class=&quot;table&quot;&gt;&#10;            &lt;thead&gt;&#10;                &lt;tr&gt;&#10;                    &lt;th&gt;$1$&lt;/th&gt;&#10;                &lt;/tr&gt;&#10;            &lt;/thead&gt;&#10;            &lt;tbody&gt;&#10;                &lt;tr&gt;&#10;                    &lt;td&gt;&lt;/td&gt;&#10;                &lt;/tr&gt;&#10;            &lt;/tbody&gt;&#10;        &lt;/table&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="psf" value="public static function $1$()&#10;{&#10;    $2$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="fradoio" value="&lt;div class=&quot;radio&quot;&gt;&#10;    &lt;label&gt;&#10;        {{Form::radio('$1$', '$2$',['selected' =&gt;'selected'])}}&#10;        $3$&#10;    &lt;/label&gt;&#10;&lt;/div&gt;" description="radio form row" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+  <template name="newlayout" value="@extends('front.layout')&#10;@section('content')&#10;&#10;@stop&#10;@section('right_content')&#10;&#10;@stop&#10;&#10;@section('customjs')&#10;&#10;@stop" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="blang" value="@lang('$1$')" description="blade lanugage" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="burl" value="{{ url('$1$') }}" description="Blade url" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="javalink" value="javascript:void(0)" description="href java link" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="d" value="dd($1$);" description="dump and die" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

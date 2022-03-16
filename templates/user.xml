@@ -1,0 +1,63 @@
+<templateSet group="user">
+  <template name="vas" value="$this-&gt;view-&gt;assign('$1$', $2$)" description="this view assign" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="&lt;&lt;" value="&lt;?= $1$ ?&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="kv" value="'$1$' =&gt; $this-&gt;$1$," description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="lang" value="{{ Helper::__('$1$') }}" description="Blade lang" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="formgroup" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label&gt;$label$&lt;/label&gt;&#10;    &lt;input type=&quot;text&quot; class=&quot;form-control input-sm&quot; name=&quot;$name$&quot;&gt;&#10;   &lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bmCreateTable" value="&lt;?php&#10;use Illuminate\Database\Schema\Blueprint;&#10;use Illuminate\Support\Facades\Schema;&#10;&#10;class Migration&#10;{&#10;    public static function up()&#10;    {&#10;        if (!Schema::hasTable('$tablename$')) {&#10;            Schema::create('$tablename$', function (Blueprint $table) {&#10;                $table-&gt;increments('id')-&gt;unsigned();&#10;                $table-&gt;timestamps();&#10;            });&#10;        }&#10;&#10;        return true;&#10;    }&#10;&#10;    public static function down()&#10;    {&#10;    }&#10;}&#10;" description="bin / migration template" toReformat="false" toShortenFQNames="true">
+    <variable name="tablename" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bmUpdateTable" value="&lt;?php&#10;use Illuminate\Database\Schema\Blueprint;&#10;use Illuminate\Support\Facades\Schema;&#10;&#10;class Migration&#10;{&#10;    public static function up()&#10;    {&#10;        if(Schema::hasTable('$tablename$')) {&#10;            Schema::table('$tablename$', function ($table) {&#10;                $table-&gt;integer('')-&gt;after('')-&gt;nullable();&#10;            });&#10;        }&#10;&#10;        return true;&#10;    }&#10;&#10;    public static function down()&#10;    {&#10;    }&#10;}&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="tablename" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bm" value="&lt;?php&#10;use Illuminate\Database\Schema\Blueprint;&#10;use Illuminate\Support\Facades\Schema;&#10;&#10;class Migration&#10;{&#10;    public static function up()&#10;    {&#10;        return true;&#10;    }&#10;&#10;    public static function down()&#10;    {&#10;    }&#10;}&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bmUpdateData" value="&lt;?php&#10;&#10;use Illuminate\Database\Schema\Blueprint;&#10;use Symfony\Component\Console\Helper\ProgressBar;&#10;use Symfony\Component\Console\Output\ConsoleOutput;&#10;&#10;class Migration&#10;{&#10;    private static $nameTypeIds = [];&#10;&#10;    public static function up()&#10;    {&#10;&#10;        $output = new ConsoleOutput();&#10;        $progress = new ProgressBar($output, count($products));&#10;        $output-&gt;writeln('Start migrate attribute combos to it`s own products');&#10;        $progress-&gt;setFormat('very_verbose');&#10;        $progress-&gt;setBarCharacter('&lt;fg=magenta&gt;=&lt;/&gt;');&#10;        $progress-&gt;setProgressCharacter(&quot;\xF0\x9F\x8D\xBA&quot;);&#10;        $progress-&gt;start();&#10;&#10;        foreach ($foos as $bar) {&#10;            &#10;            $progress-&gt;advance();&#10;        }&#10;        $progress-&gt;finish();&#10;        $output-&gt;writeln(&quot;&quot;);&#10;        $output-&gt;writeln('Done migrating combos');&#10;        return true;&#10;    }&#10;&#10;    public static function down()&#10;    {&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="blade" value="@extends('layouts.default')&#10;@section('content')&#10;&#10;@stop" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

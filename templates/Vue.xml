@@ -1,0 +1,70 @@
+<templateSet group="Vue">
+  <template name="v-script" value="&lt;script&gt;&#10;export default {&#10;&#10;}&#10;&#10;&lt;/script&gt;" description="vue template script" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="vue-init" value="&lt;template&gt;&#10;&#10;&lt;/template&gt;&#10;&#10;&lt;script&gt;&#10;export default {&#10;    data() {&#10;        return {&#10;            &#10;        }&#10;    }&#10;}&#10;&lt;/script&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="vb" value="&lt;template&gt;&#10;    &lt;div&gt;&#10;&#10;    &lt;/div&gt;&#10;&lt;/template&gt;&#10;&#10;&lt;script&gt;&#10;export default {&#10;    data() {&#10;        return {}&#10;    }&#10;}&#10;&lt;/script&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="btf" value="&lt;b-field label=&quot;$1$&quot;&#10;    :type=&quot;{'is-danger': hasError('$2$')}&quot;&#10;    :message=&quot;errorLabel('$2$')&quot;&#10;&gt;&#10;    &lt;b-input v-model=&quot;form.$2$&quot; placeholder=&quot;$1$&quot;/&gt;&#10;&lt;/b-field&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="bnot" value="this.$buefy.notification.open({&#10;    message: `$1$`,&#10;    type: 'is-success$2$'&#10;})" description="buefy notification" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="tl" value="$t('$1$')" description="T language" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="tlang" value="{{ $t('$1$') }}" description="t language with brackets" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="2col" value="&lt;div class=&quot;columns&quot;&gt;&#10;    &lt;div class=&quot;column&quot;&gt;&#10;        $1$&#10;    &lt;/div&gt;&#10;    &lt;div class=&quot;column&quot;&gt;&#10;        $2$&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="two bulma columns" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="asyncfunc&gt;" value="async $1$() {&#10;    try {&#10;        let {data} = await this.axios.post('$2$', $3$);            &#10;    } catch (error) {&#10;        this.errors = error.response;&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="nf" value="&lt;form-field&#10;    :errors=&quot;errors&quot;&#10;    field=&quot;$1$&quot;&#10;    :label=&quot;$t('field.$1$')&quot;&#10;&gt;&#10;    &lt;b-input v-model=&quot;form.$1$&quot; :placeholder=&quot;$t('field.$1$')&quot;/&gt;&#10;&lt;/form-field&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="try" value="try {&#10;    $1$&#10;} catch (error) {&#10;    console.error(error);&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+</templateSet>
