@@ -4,15 +4,14 @@
     <property name="created">2022-02-16T08:01:53</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2021.3.1.0.0</property>
-    <property name="modified">2022-07-31T13:50:14</property>
+    <property name="modified">2022-10-21T13:05:20</property>
     <property name="originalScheme">Light Lite</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.8" />
-  <option name="EDITOR_FONT_SIZE" value="18" />
+  <option name="LINE_SPACING" value="1.2" />
+  <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
   <option name="EDITOR_LIGATURES" value="true" />
   <option name="CONSOLE_FONT_NAME" value="Monaco" />
-  <option name="CONSOLE_FONT_SIZE" value="14" />
   <option name="CONSOLE_LINE_SPACING" value="1.4" />
   <colors>
     <option name="CARET_COLOR" value="" />
