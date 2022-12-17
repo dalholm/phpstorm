@@ -1,4 +1,9 @@
 <application>
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter id="8c1adf84-9f7b-4775-a216-954f592a6563" name="PHP 8.1" home="" debugger_id="php.debugger.XDebug" />
+    </interpreters>
+  </component>
   <component name="PhpSmartKeysConfiguration">
     <option name="promptFindUsagesOfBaseMethod" value="false" />
   </component>
